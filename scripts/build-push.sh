@@ -2,7 +2,7 @@
 
 set -e
 
-use_tag="docker.pkg.github.com/edoardopedrotti/uvicorn-gunicorn:$NAME"
+use_tag="docker.pkg.github.com/ghcr.io/fretta-furia/uvicorn-gunicorn:$NAME"
 use_dated_tag="${use_tag}-$(date -I)"
 
 bash scripts/build.sh
